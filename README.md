@@ -7,7 +7,7 @@ Tutorial :
 2. Download the files
 3. Place in an empty folder
 4. Drag GTA IV files (Supported and Un-Supported) to the /files folder (Supports .wdr, .wtd, .wbn )
-5. Run converter.bat
+5. Run converter.bat OR run converter2.bat (converter2.bat does not open multiple windows and is better suited for laptops)
 
 This should automatically remove all GTA IV files leftover, however in the case that it doesn't, run the delete.bat file
 
