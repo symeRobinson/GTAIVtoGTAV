@@ -1,0 +1,18 @@
+# GTAIVtoGTAV
+Simple Converter Script
+
+Tutorial :
+
+1. Make sure FiveM is installed at C:\Users\USERNAME\AppData\Local\FiveM\FiveM.app
+2. Download the files
+3. Place in an empty folder
+4. Drag GTA IV files (Supported and Un-Supported) to the /files folder
+5. Run converter.bat
+
+This should automatically remove all GTA IV files leftover, however in the case that it doesn't, run the delete.bat file
+
+count.bat lists how many files from the supported types you have in the folders
+helptherearesomanycmdsnow.bat is a legacy script from when this would crash the computer with insane amounts of CMD windows
+
+# Fried Development https://discord.gg/3ft2kjv for support
+## I make other stuff too
