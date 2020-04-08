@@ -12,6 +12,7 @@ Tutorial :
 This should automatically remove all GTA IV files leftover, however in the case that it doesn't, run the delete.bat file
 
 count.bat lists how many files from the supported types you have in the folders
+
 helptherearesomanycmdsnow.bat is a legacy script from when this would crash the computer with insane amounts of CMD windows
 
 # Fried Development https://discord.gg/3ft2kjv for support
@@ -19,6 +20,9 @@ helptherearesomanycmdsnow.bat is a legacy script from when this would crash the 
 
 P.S. 
 You need OpenIV to open the GTA IV files, once open you can find the convertable files in these folders
+
 pc/data/maps
+
 pc/data/models/cdimages
+
 pc/data/textures
