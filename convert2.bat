@@ -9,7 +9,7 @@ for /r %%x in (*.wtd) do set /a count+=1
 
 for /r %%v in (*.wdr) do set /a othercount+=1 & (
 	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
-	ping 127.255.255.255 -n 1 -w 200> nul
+	rem ping 127.255.255.255 -n 1 -w 200> nul
 	echo Converted %%v
 	echo !othercount! out of %count%
 )
@@ -17,7 +17,7 @@ PING -n 5 127.0.0.1>nul
 echo "Finished with WDR files"
 for /r %%v in (*.wbn) do set /a othercount+=1 & (
 	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
-	ping 127.255.255.255 -n 1 -w 200> nul
+	rem ping 127.255.255.255 -n 1 -w 200> nul
 	echo Converted %%v
 	echo !othercount! out of %count%
 )
@@ -25,7 +25,7 @@ PING -n 5 127.0.0.1>nul
 echo "Finished with WBN files"
 for /r %%v in (*.wtd) do set /a othercount+=1 & (
 	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
-	ping 127.255.255.255 -n 1 -w 200> nul
+	rem ping 127.255.255.255 -n 1 -w 200> nul
 	echo Converted %%v
 	echo !othercount! out of %count%
 )
