@@ -47,6 +47,18 @@ for /r %%v in (*.wft) do set /a othercount+=1 & (
 	echo Converted %%v
 	echo !othercount! out of %count%
 )
+for /r %%v in (*.wtf) do set /a othercount+=1 & (
+	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
+	rem ping 127.255.255.255 -n 1 -w 200> nul
+	echo Converted %%v
+	echo !othercount! out of %count%
+)
+for /r %%v in (*.wpl) do set /a othercount+=1 & (
+	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
+	rem ping 127.255.255.255 -n 1 -w 200> nul
+	echo Converted %%v
+	echo !othercount! out of %count%
+)
 PING -n 5 127.0.0.1>nul
 echo "Finished with WTD files"
 echo "Press any key to begin deleting old files"
@@ -59,6 +71,7 @@ del "%mypath%\files\*.wbn" /s /f /q
 del "%mypath%\files\*.wtd" /s /f /q
 del "%mypath%\files\*.wpl" /s /f /q
 del "%mypath%\files\*.wtf" /s /f /q
+del "%mypath%\files\*.wft" /s /f /q
 del "%mypath%\files\*.wnv" /s /f /q
 echo "Finished!"
 pause
