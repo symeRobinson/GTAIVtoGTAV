@@ -1,4 +1,4 @@
-# GTA IV to V Converter
+# GTA IV to V Mass Converter
 
 **YOU REQUIRE FIVEM TO DO THIS**
 1. Make sure FiveM is installed to C:\Users\USERNAME\AppData\Local\FiveM\FiveM.app
