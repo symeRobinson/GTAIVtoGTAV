@@ -9,6 +9,7 @@ for /r %%x in (*.wbn) do set /a count+=1
 for /r %%x in (*.wtd) do set /a count+=1
 for /r %%x in (*.wbd) do set /a count+=1
 for /r %%x in (*.wdd) do set /a count+=1
+for /r %%x in (*.wft) do set /a count+=1
 
 for /r %%v in (*.wbd) do set /a othercount+=1 & (
 	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
@@ -35,6 +36,12 @@ for /r %%v in (*.wbn) do set /a othercount+=1 & (
 	echo !othercount! out of %count%
 )
 for /r %%v in (*.wtd) do set /a othercount+=1 & (
+	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
+	rem ping 127.255.255.255 -n 1 -w 200> nul
+	echo Converted %%v
+	echo !othercount! out of %count%
+)
+for /r %%v in (*.wft) do set /a othercount+=1 & (
 	C:\Users\%USERNAME%\AppData\Local\FiveM\FiveM.app\fivem.com formats:convert %%v --game=ny
 	rem ping 127.255.255.255 -n 1 -w 200> nul
 	echo Converted %%v
