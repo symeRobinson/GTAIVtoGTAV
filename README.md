@@ -16,5 +16,5 @@ This converter supports the following filetypes :
 * .wtd
 * .wbd
 * .wdd
-
-# Support Discord : https://discord.gg/3ft2kjv
+ 
+Joined for help : https://discord.gg/MCAnhaz
